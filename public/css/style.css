@@ -1,0 +1,132 @@
+body{
+	font-size: 1.1rem;
+	color: white;
+	background: url('../img/bg.jpg');
+    background-attachment: fixed;
+    background-position: center; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Dosis', sans-serif;
+}
+.container{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 4px;
+	width: 100%;
+	display: block;
+}
+header{
+	width: 98%;
+	position: absolute;
+	height: 90px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*Logo*/
+.logo{
+	width: 50%;
+	float: left;
+	padding: 4px;
+}
+.logo p{
+	font-family: Dosis;
+	display: inline;
+	font-weight: bold;
+	font-size: 2.9rem;
+	padding: 4px 10px 4px 10px;
+}
+/*Navigation*/
+#nav{
+	width: 40%;
+	overflow: hidden;
+	padding: 4px;
+    float: right;
+}
+#nav ul{
+	list-style: none;
+	display: block;
+    clear: both;
+}
+#nav ul li{
+	float: left;
+}
+#nav a{
+	display: inline;
+	padding: 4px 10px 4px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: skyBlue;
+	font-family: Dosis;
+}
+#nav a:hover{
+	text-transform: initial;
+}
+.writeUp{
+	position: absolute;
+	display: block;
+
+}
+/*footer*/
+.social{
+	display: inline;
+}
+.social img{
+	width: 20px;
+	height: 20px;
+}
+.socail span{
+	width: 20px;
+	height: 20px;
+	margin-top: 4px;
+}
+.social p{
+	float: right;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.buttomNav{
+	overflow: hidden;
+}
+.buttomNav ul{
+	list-style: none;
+	display: block;
+    clear: both;
+}
+.buttomNav ul li{
+	float: left;
+	padding: 4px 10px 4px 10px;
+}
+.buttomNav a{
+	display: inline;
+	padding: 4px 10px 4px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: skyBlue;
+	font-family: Dosis;
+}
+.column{
+    float: left;
+    width: 31%;
+    padding: 7px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+	font-family: sans-serif;
+	height: 60px;
+	position: absolute;
+	text-align: center;
+	width:	98%;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.8rem;
+}
+.fa{
+	background-image: url("../img/facebook.png");
+	background-size: cover;
+}
